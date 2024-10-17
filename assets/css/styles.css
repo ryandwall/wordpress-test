@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @media screen and (max-width: 787px) {
+      #services-grid-menu > :nth-child(-n + 2) {
+      filter: none !important;
+    }
+  }
+  
+
+  .inner-services-dropdown > a::after {
+    margin-top: 10px;
+    right: 14px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid grey;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+  }
+
+  #phone-number::before {
+    content: "";
+    width: .1em;
+    height: 30px;
+    background-color: rgb(97, 92, 92);
+    margin-right: 10px;
+  }
+  
+  #after-slide-show-content > h1 {
+    text-shadow: 2px 2px 4px black;
+  }
+
+  #after-slide-show-container {
+    filter: drop-shadow(8px 8px 8px black);
+  }
+    
+  #services-grid-menu > :nth-child(-n + 2) {
+    filter: drop-shadow(0 8px 8px black);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+
+
